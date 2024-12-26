@@ -28,7 +28,7 @@ https://github.com/user-attachments/assets/fcdca495-43a9-4203-901a-1d62dd880923
 ![Screenshot 2024-12-26 154015](https://github.com/user-attachments/assets/cac2a6e0-88a2-4c91-a267-7343bd7f0120)
 
 ## **How the Edges Are Rendered**
-- The edges (connecting lines) between nodes are drawn using **SVG `<line>` elements**.
+- The edges (connecting lines) between nodes are drawn using **SVG `<path>` elements**.
 - When a new edge is added:
   - The source node's output is connected to the input of the target node.
   - A line is dynamically drawn between the two nodes.
