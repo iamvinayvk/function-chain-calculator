@@ -5,7 +5,7 @@ export const getPath = (fromNode: Node, toNode: Node, type: string): string => {
   const isOutputValueNode = toNode.label==="Output";
     const fromX = fromNode.x +( isInputValueNode ? 118:208);
     const fromY = fromNode.y +  (isInputValueNode?29:227);
-    const toX = toNode.x +  (isOutputValueNode ? 1420:42);
+    const toX = toNode.x +  (isOutputValueNode ? 1250:42);
     const toY = toNode.y +  (isOutputValueNode ? 29:227);
 
     switch (type) {
